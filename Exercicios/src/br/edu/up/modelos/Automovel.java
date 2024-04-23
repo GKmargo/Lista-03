@@ -20,7 +20,7 @@ public class Automovel {
         this.litros = litros;
     }
 
-    public double consumoMedio (double km, double litros){
+    public double calcularConsumoMedio (double km, double litros){
         return km/litros;
     } 
 
