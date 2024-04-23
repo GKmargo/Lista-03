@@ -4,7 +4,7 @@ import br.edu.up.modelos.Aluno;
 import br.edu.up.modelos.Media;
 
 public class Exercicio01 {
-    public void executar(){
+    public static void executar(){
     Aluno aluno = new Aluno();
     Media media = new Media();
 
