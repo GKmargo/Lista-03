@@ -14,7 +14,7 @@ public class Exercicio01 {
         media.getNota()[i] = Prompt.lerDecimal("Digite a nota " + (i + 1) + " do Aluno " + aluno.getNome() + " :");
     }
 
-    double notaMedia = media.notaMedia(media.getNota());
+    double notaMedia = media.calcularNotaMedia(media.getNota());
 
     Prompt.imprimir("A média do Aluno " + aluno.getNome() + " é: " + notaMedia);
 }

@@ -11,7 +11,7 @@ public class Media extends Aluno {
         this.nota = nota;
     }
 
-    public double notaMedia(double[] nota) {
+    public double calcularNotaMedia(double[] nota) {
         double media = 0;
         for (int i = 0; i < 3; i++) {
             media += nota[i] / 3;
