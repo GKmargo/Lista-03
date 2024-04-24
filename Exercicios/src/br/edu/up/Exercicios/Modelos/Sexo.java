@@ -12,7 +12,7 @@ public class Sexo {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
+    
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
