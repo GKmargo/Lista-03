@@ -9,7 +9,11 @@ public class Exercicio11 {
         for(int i = 0; i < 56 ; i++){
             pessoa.setNome(Prompt.lerLinha("Digite o nome da pessoa: ")); 
             pessoa.setSexo(Prompt.lerCaractere("Se seu sexo for masculino digite m ou se for feminino f"));
-            pessoa.contador(pessoa.getSexo());
+            pessoa.contador(pessoa.getSexoForCounter());
+            
+            Prompt.imprimir("Nome: " + pessoa.getNome());
+            Prompt.imprimir("Sexo: " + pessoa.getSexo());
+
         }
 
         Prompt.imprimir("Quantidade mulheres: " + pessoa.qtdfemin);

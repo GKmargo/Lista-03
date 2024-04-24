@@ -10,8 +10,18 @@ public class Sexo {
         return nome;
     }
 
-    public Character getSexo(){
+    public Character getSexoForCounter(){
         return sexo;
+    }
+
+    public String getSexo(){
+
+        if(sexo == 'F' || sexo == 'f'){
+            return "feminino";
+        }else if(sexo == 'M' || sexo == 'm'){
+            return "masculino";
+        }
+        return "erro";
     }
 
     public void setNome(String nome) {
