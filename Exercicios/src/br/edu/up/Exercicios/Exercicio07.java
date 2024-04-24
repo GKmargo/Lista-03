@@ -1,6 +1,6 @@
-package br.edu.up;
+package br.edu.up.Exercicios;
 
-import br.edu.up.modelos.CarroNovo;
+import br.edu.up.Exercicios.Modelos.CarroNovo;
 
 public class Exercicio07 {
     public static void executar(){

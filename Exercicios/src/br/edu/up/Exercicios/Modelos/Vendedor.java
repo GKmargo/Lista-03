@@ -1,4 +1,4 @@
-package br.edu.up.modelos;
+package br.edu.up.Exercicios.Modelos;
 
 public class Vendedor {
     private String nome;

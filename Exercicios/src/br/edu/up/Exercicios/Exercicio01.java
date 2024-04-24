@@ -1,7 +1,7 @@
-package br.edu.up;
+package br.edu.up.Exercicios;
 
-import br.edu.up.modelos.Aluno;
-import br.edu.up.modelos.Media;
+import br.edu.up.Exercicios.Modelos.Aluno;
+import br.edu.up.Exercicios.Modelos.Media;
 
 public class Exercicio01 {
     public static void executar(){

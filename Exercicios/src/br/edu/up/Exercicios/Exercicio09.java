@@ -1,6 +1,6 @@
-package br.edu.up;
+package br.edu.up.Exercicios;
 
-import br.edu.up.modelos.Numero;
+import br.edu.up.Exercicios.Modelos.Numero;
 
 public class Exercicio09 {
     public static void executar(){

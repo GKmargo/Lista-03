@@ -1,4 +1,4 @@
-package br.edu.up.modelos;
+package br.edu.up.Exercicios.Modelos;
 
 public class CarroNovo {
     private double valorFabrica;

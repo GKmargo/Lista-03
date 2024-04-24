@@ -1,6 +1,6 @@
-package br.edu.up;
+package br.edu.up.Exercicios;
 
-import br.edu.up.modelos.Conversao;
+import br.edu.up.Exercicios.Modelos.Conversao;
 
 public class Exercicio04 {
     public static void executar(){

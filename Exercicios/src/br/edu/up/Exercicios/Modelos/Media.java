@@ -1,4 +1,4 @@
-package br.edu.up.modelos;
+package br.edu.up.Exercicios.Modelos;
 
 public class Media extends Aluno {
     private double [] nota = new double[3];
