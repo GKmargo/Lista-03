@@ -2,31 +2,37 @@ package br.edu.up.Exercicios.Modelos;
 
 public class Sexo {
     private String nome;
-    private String sexo;
-    private int f;
-    private int m;
+    private Character sexo;
+    public int qtdmasc = 0;
+    public int qtdfemin = 0;
 
     public String getNome() {
         return nome;
     }
+
+    public Character getSexo(){
+        return sexo;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
-    public void setSexo(String sexo) {
+
+    public void setSexo(Character sexo) {
         this.sexo = sexo;
     }
     
-    public String getTudo(double nome, double sexo){
-
-        int f = 0 ;
-
-        if(sexo == 'F' || sexo == 'f'){ 
-            f++;
+    public int contador(Character sexo){
+        if(sexo == 'F' || sexo == 'f'){
+            qtdfemin ++;
+            return qtdfemin;
+        } else if (sexo == 'M' || sexo == 'm'){
+            qtdmasc ++;
+            return qtdmasc;
         } else {
-            m++;
+            return 0;
         }
-        return ("Nome: " + nome + "Sexo: " + sexo);
+
     }
 
 }
