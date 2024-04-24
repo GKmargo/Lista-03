@@ -6,7 +6,7 @@ public class Exercicio11 {
     public static void executar(){
         Sexo pessoa = new Sexo();
 
-        for(int i = 0; i < 3 ; i++){
+        for(int i = 0; i < 56 ; i++){
             pessoa.setNome(Prompt.lerLinha("Digite o nome da pessoa: ")); 
             pessoa.setSexo(Prompt.lerCaractere("Se seu sexo for masculino digite m ou se for feminino f"));
             pessoa.contador(pessoa.getSexo());
