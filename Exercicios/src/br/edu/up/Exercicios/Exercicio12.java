@@ -6,16 +6,17 @@ import br.edu.up.Exercicios.Modelos.ConcessionariaCarangoVelho;
 public class Exercicio12 {
 
     public static void executar(){
-
-        boolean resposta = true;
         int ate2000 = 0;
         int total = 0;
+        char continuar;
 
-        while (resposta) {
+        while (true) {
             
         ConcessionariaCarangoVelho concessionaria = new ConcessionariaCarangoVelho();
 
         concessionaria.setAno(Prompt.lerInteiro("Digite o ano do carro: "));
+        concessionaria.setPreco(Prompt.lerDecimal("Digite o valor do carro: "));
+        
 
         if(concessionaria.getAno() <= 2000){
             ate2000++;
@@ -23,12 +24,17 @@ public class Exercicio12 {
             
         total ++;
 
-        concessionaria.setPreco(Prompt.lerDecimal("Setar preço"));
+        Prompt.imprimir("Valor do desconto: " +  concessionaria.valorDesconto());
+        Prompt.imprimir("Valor do Carro com o desconto: " + concessionaria.valorCarro());
 
-        
-
-
+        continuar = Prompt.lerCaractere("Deseja continuar sim(S), não(N)? ");
+        if (continuar == 'N' || continuar == 'n'){
+            break;
         }
+        }
+
+        Prompt.imprimir("Carros até o Ano 2000: " + ate2000);
+        Prompt.imprimir("Total de Carros: "+ total);
 
     }
 

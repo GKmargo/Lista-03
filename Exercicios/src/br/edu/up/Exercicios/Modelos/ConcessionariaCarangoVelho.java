@@ -3,6 +3,7 @@ package br.edu.up.Exercicios.Modelos;
 public class ConcessionariaCarangoVelho {
     private int ano;
     private double preco;
+    
 
     public int getAno() {
         return ano;
