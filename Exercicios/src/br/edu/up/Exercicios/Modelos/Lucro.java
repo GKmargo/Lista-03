@@ -18,15 +18,12 @@ public class Lucro {
     }
 
     public String calcularLucroPrejuizoEmpate(){
-        double lucro = precoCusto - precoVenda;
-        if(lucro > precoCusto){
+        if(precoVenda > precoCusto){
             return "Produto Lucrou";
-        } else if (lucro < precoCusto){
+        } else if (precoVenda < precoCusto){
             return "Produto causou prejuizo";
-        } else if (lucro == precoCusto){
+        } else {
             return "Houve um empate";
-        } else{
-            return null;
-        }
+        } 
     }
 }
