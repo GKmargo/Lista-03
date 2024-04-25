@@ -1,5 +1,7 @@
 package br.edu.up.Exercicios.Modelos;
 
+import br.edu.up.Exercicios.Prompt;
+
 public class Pessoa {
 
     String nome ;
@@ -29,6 +31,20 @@ public class Pessoa {
     }
     public void setSaude(String saude) {
         this.saude = saude;
+    }
+
+    public String getApto(){
+
+        Prompt.imprimir(sexo );
+        Prompt.imprimir(idade );
+        Prompt.imprimir(saude );
+
+        if((sexo.equals("masculino" ) || sexo.equals("Masculino") || sexo.equals("m")) && (idade >= 18) && (saude.equals("boa") || saude.equals("b"))){
+            return " apto para o serviço militar";
+        } else {
+            return " não está apto paar o serviço militar";
+        }
+
     }
 
     
