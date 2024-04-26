@@ -20,7 +20,7 @@ public class Programa {
         //Exercicio14.executar();
         //Exercicio15.executar();
         //Exercicio16.executar();
-        //Exercicio17.executar();
+        Exercicio17.executar();
         //Exercicio18.executar();
         //Exercicio19.executar();
         //Exercicio20.executar();
@@ -29,6 +29,6 @@ public class Programa {
         //Exercicio23.executar();
         //Exercicio24.executar();
         //Exercicio25.executar();
-        Exercicio26.executar();
+        //Exercicio26.executar();
     }
 }
